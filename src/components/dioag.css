@@ -1,3 +1,36 @@
-.dioagBody{
-    background: red;
+.dioag {
+    border: 1px solid #cccccc;
+    position: fixed;
+    z-index: 20;
+}
+
+.dioag-title {
+    height: 60px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.dioag-title h3 {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.dioag-title i {
+    line-height: 60px;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.dioag-content {
+    height: calc(100% - 60px);
+    background-color: green;
+}
+.mask{
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    z-index: 10;
+    background: rgba(0,0,0,0.5);
 }

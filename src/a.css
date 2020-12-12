@@ -1,3 +1,12 @@
-body{
-    background: red;
+.iconguanbi:before{
+    content: "\e61a";
+}
+#dioagId{
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-align: center;
+    background: green;
+    color: white;
+    border: 1px solid white;
 }
